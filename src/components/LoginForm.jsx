@@ -33,6 +33,7 @@ const LoginForm = () => {
           <div className='head-wrap'>
           <img src={logo} alt="logo" width={'100px'} />
                 <h1 className="title">BrotherGram</h1>
+                <p>Please type this to enter to the main page username: Abror password: Abror007</p>
           </div>
         
         <form onSubmit={handleSubmit}>

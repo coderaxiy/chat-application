@@ -40,7 +40,7 @@ const ChatFeed = (props) => {
     }
 
     renderMessages()
-    if(!chat) return 'Connecting...';
+    if(!chat) return <h1>obviously chat engine gave me a free trial only for 10 days that why it server isnt working</h1>;
   return(
       <div className="chat-feed">
           <div className="chat-title-container">

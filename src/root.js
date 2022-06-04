@@ -1,10 +1,10 @@
 import { ChatEngine } from 'react-chat-engine';
 import './root.css';
 import ChatFeed from './components/ChatFeed'
-import LoginForm from './components/LoginForm';
+// import LoginForm from './components/LoginForm';
 
 const Root = () =>{
-    if(!localStorage.getItem('username')) return <LoginForm />
+    // if(!localStorage.getItem('username')) return <LoginForm />
 
     return(
         <ChatEngine
